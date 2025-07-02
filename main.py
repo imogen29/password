@@ -34,4 +34,5 @@ async def 密碼(ctx, 角色名: str):
 bot.run("MTM4ODk0MTkxNjA3ODM0NjQ2Mg.GYr816.DtSp0CBtCOcoI823S5wPoO9QGH580Yp-EhP6UQ")
 print(f"Token: {token}")  # 測試有沒有拿到token
 
+keep_alive.keep_alive()
 bot.run(token)
